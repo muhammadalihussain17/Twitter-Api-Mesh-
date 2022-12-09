@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+
+.footer
+{
+    background-color: #0E729D;
+    height: 47px;
+}
+
+.footer__container > h3
+{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    padding-top: 8px;
+    font-family: 'Irish Grover', cursive;
+}

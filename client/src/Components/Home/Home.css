@@ -1,0 +1,361 @@
+.home
+{
+    background-color: #1A1616;
+    max-height: 100%;
+    height: 625px;
+}
+
+.home__container
+{
+    padding-top: 1px;
+    display: flex;
+}
+
+.top__account
+{
+    width: 300px;
+    height: 650px;
+    border-right: 4px solid #0E729D;
+    margin-top: -25px;
+    margin-left: -30px;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+.top__account__heading
+{
+    background-color: #0E729D;
+    width: 200px;
+    margin-left: 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 55px;
+    
+}
+
+.top__account__heading > h3
+{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.top__account__ids
+{
+    color: #fff;
+    border: 3px solid #07597C;
+    background-image: -webkit-linear-gradient(30deg, #07597C 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #07597C 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    width: 160px;
+    margin-left: 45px;
+    border-radius: 10px;
+    margin-bottom: 18.5px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.top__account__ids:hover
+{
+    background-position: 100%;
+    color: #07597C;
+}
+
+.top__account__ids > h4
+{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+
+.top__account__ids > h4:hover
+{
+    color: #0E729D;
+    font-weight: bold;
+}
+
+.top_account_post
+{
+    margin-top: 25px;
+    margin-left: 30px;
+    width:300px
+}
+
+.search
+{
+    border-radius: 20px;
+    border-width: 0;
+    height: 42px;
+    width: 300px;
+    padding-bottom: 9px;
+    
+}
+
+input.search:focus-visible
+{
+    background-color: #0E729D;
+    color: white;
+}
+
+input.search
+{
+    background-color: #0E729D;
+    padding-left: 20px;
+    color: white;
+}
+
+input.search::placeholder
+{
+    color: white;
+}
+
+.user__account__tweets
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.account__tweets
+{
+    background-color: #0E729D;
+    width: 320px;
+    border-radius: 10px;
+    height: 380px;
+    margin-bottom: 0px;
+    margin-right: 60px;
+    margin-top: 55px;
+    background-image: linear-gradient(to right, #0E729D 20%, #11475f  51%, #0E729D  100%);
+    box-shadow: 4px 6px 6px #232528;
+    transition: 0.5s;
+    background-size: 200% auto;
+
+}
+
+
+.account__tweets:hover{
+
+    background-position: top ; /* change the direction of the change here */
+    color: #161413;
+}
+
+
+.tweet
+{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tweet__img
+{
+    background-color: #1A1616;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.tweet__img > img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.tweet__info
+{
+    margin-left: -90px;
+    margin-top: 12px;
+}
+
+.tweet__info > h5
+{
+    font-size: 22px;
+    color: white;
+}
+
+.tweet__info > h6
+{
+    margin-top: -8px;
+    font-size: 14px;
+    color: white;
+}
+
+.tweet_text
+{
+    background-color: #1A1616;
+    width: 270px;
+    height: 150px;
+    margin-left: 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.tweet_text > h5
+{
+    font-size: 11px;
+    color: white;
+    padding: 10px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.top__trends_heading
+{
+    background-color: #0E729D;
+    width: 200px;
+    margin-left: 480px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 55px; 
+}
+
+.top__trends_heading > h3
+{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.top__trends_ids
+{
+    color: #fff;
+    border: 3px solid #07597C;
+    background-image: -webkit-linear-gradient(30deg, #07597C 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #07597C 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    width: 160px;
+    margin-left: 500px;
+    border-radius: 10px;
+    height: 40px;
+    margin-bottom: 19px;
+    cursor: pointer;
+}
+
+.top__trends_ids:hover
+{
+    background-position: 100%;
+    color: #022c3e;  
+}
+
+.top__trends_ids > h4
+{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.top__trends_ids > h4:hover
+{
+  color: #0E729D;
+  font-weight: bold;
+}
+
+.header__nav__toogle
+{
+    margin-top: -60px;
+    width: 100px;
+    background-color: #1A1616;
+    border-radius: 20px;
+    margin-left: 30px;
+    height: 30px;
+}
+
+.switch{
+    margin-left: 6px;
+    margin-top: -5px;
+}
+
+.form-switch1
+{
+    margin-top: 9px; 
+    height: 20px;  
+    background-color: #0E729D;
+    border-width: 0;
+}
+
+.hide
+{
+    display: none;
+}
+
+.paginationBttns
+{
+    width: 45%;
+    height: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    text-decoration: none;
+    position: fixed;
+}
+
+.paginationBttns a
+{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #0E729D 0%, #0c5f83  51%, #0e506c  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white !important;
+    font-size: 13px;
+}
+
+.paginationBttns a:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: white;
+    text-decoration: none;
+  
+  }
+
+.tweet_likes
+{
+    margin-left: 30px;
+    margin-top: 20px;
+    display:  flex;
+    align-items: center;
+}
+
+.tweet_likes > h5
+{
+    font-size: 16px;
+    color: white;
+}
+
+.icon
+{
+    margin-right: 10px;
+    color: #1A1616;
+}
+
+.icon1
+{
+    margin-right: 10px;
+    color: #1A1616;
+    margin-left: 20px;
+}
+
+
+

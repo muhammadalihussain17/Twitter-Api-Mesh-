@@ -1,0 +1,82 @@
+.login
+{
+    background-color: #1A1616;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 625px;
+}
+
+.login__container
+{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #0E729D;
+    margin-top: 100px;    
+}
+
+
+.login__container > form > input
+{
+
+    background-color: #1A1616;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 45px;
+    border-width: 0;
+}
+
+.login__container > form > input:focus-visible
+{
+    background-color: #1A1616;
+   color: white;
+}
+
+.login__signin
+{
+    background-color: #1A1616;
+    width: 50%;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 75px;
+}
+
+.login__container > p
+{
+    margin-top: 18px;
+    font-size: 12px;
+    color: white;
+}
+
+.login__register
+{
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    background-color: #1A1616;
+    color: white;
+}
+
+.signtog
+{
+    margin-top: -547px;
+    margin-left: 1325px;
+    width: 47px;
+}
+
+.input::placeholder
+{
+    color: white;
+}
+
+.signuptog
+{
+    margin-top: -557px;
+}
