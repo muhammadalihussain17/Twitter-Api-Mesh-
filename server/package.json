@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Twitter Api Mash Backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Muhammad Ali Hussain",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "expresss": "^0.0.0",
+    "needle": "^3.1.0",
+    "nodemon": "^2.0.20",
+    "parser": "^0.1.4",
+    "twitter": "^1.7.1",
+    "twitter-api-v2": "^1.12.9"
+  }
+}
